@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+
+### 3. Workflow’u Export Et  
+- n8n panelinden:  
+  **Workflow → Export → JSON**  
+  ve `workflow/ai_video_workflow.json` içine koy.
+
+### 4. Commit ve Push
+```bash
+git init
+git add .
+git commit -m "Initial commit: AI Video Automation Workflow"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/ai-video-automation.git
+git push -u origin main
